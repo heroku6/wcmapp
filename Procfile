@@ -1,1 +1,1 @@
-web gunicorn cmsimde/wsgi:app
+web: gunicorn --chdir cmsimde flaskapp:app
